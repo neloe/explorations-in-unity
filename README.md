@@ -36,3 +36,5 @@ Debug.Log(Vector2.down*Time.deltaTime*gravity);
 if (Input.GetKeyDown(KeyCode.UpArrow))
     entity.velocity += Vector2.up * moveSpeed;
 ```
+
+Welp, this can and will clip you straight through a sprite collider.  Well done.
