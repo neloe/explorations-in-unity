@@ -13,6 +13,8 @@
 
 * `GetComponent<T>` gets object that script is attached to
   * Script attached to many objects; script run independent on all objects?
+* public member variables are exposed to the object in unity's editor; ***THE UPDATE IS NOT BIDIRECTIONAL, whatever is set in unity's inspector wins***
+* Can do `entity.velocity += blah`, but not `entity.velocity.x += blah`; because `Rigidbody2D.velocity` is not a variable?
 
 ### Components
 
@@ -22,3 +24,15 @@
 
 * Drag animations to sprite
   * Create animation by selecting required sprites and dragging them to scene (simple animation, no keyframe)
+  
+  
+### Code Snippets
+
+Gravity and jumping; why not
+```cs
+entity.velocity += Vector2.down*Time.deltaTime*gravity;
+Debug.Log(Vector2.down*Time.deltaTime*gravity);
+
+if (Input.GetKeyDown(KeyCode.UpArrow))
+    entity.velocity += Vector2.up * moveSpeed;
+```
