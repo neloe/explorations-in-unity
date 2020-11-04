@@ -49,8 +49,6 @@ movement.x = Input.GetAxisRaw("Horizontal");
 
         if (Input.GetKeyDown(KeyCode.UpArrow))
             movement += Vector2.up * moveSpeed;
-        if (Input.GetKeyDown(KeyCode.RightArrow))
-            walkRight.Play();
         entity.velocity = movement;
        ```
 
