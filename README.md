@@ -37,4 +37,21 @@ if (Input.GetKeyDown(KeyCode.UpArrow))
     entity.velocity += Vector2.up * moveSpeed;
 ```
 
+Better/working?
+```cs
+movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = 0;
+        movement.Normalize();
+        movement *= moveSpeed;
+        movement.y = entity.velocity.y;
+        movement += Vector2.down*Time.deltaTime*gravity;
+
+
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+            movement += Vector2.up * moveSpeed;
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+            walkRight.Play();
+        entity.velocity = movement;
+       ```
+
 Welp, this can and will clip you straight through a sprite collider.  Well done.
