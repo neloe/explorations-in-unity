@@ -26,6 +26,10 @@
 * Drag animations to sprite
   * Create animation by selecting required sprites and dragging them to scene (simple animation, no keyframe)
   
+### Tile Maps
+
+* Adding box colliders to tilemaps dont seem to act like I want them to act
+* Can't find rule tile yet in unity 2019
   
 ### Code Snippets
 
@@ -57,3 +61,12 @@ movement.x = Input.GetAxisRaw("Horizontal");
 ```
 
 Welp, this can and will clip you straight through a sprite collider.  Well done.
+
+---
+## TODO
+
+- [] Install instructions
+  - [] VS Code
+  - [] .NET SDK 
+  - [] Unity Hub
+
