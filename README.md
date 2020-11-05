@@ -7,6 +7,7 @@
 ### Editors
 
 * VS Community seems to suck; VS Code better/lighter?  Maybve not; need the .NET core 3.1 SDK and suggested extensions; let's see if that's nicer
+ * I cannot stress this enough; VS Community is laggy (on faculty laptop), will try vs code next with the appropriate sdk and extensions.
 
 
 ### Scripting
@@ -27,6 +28,8 @@
   
   
 ### Code Snippets
+
+* Rigidbody2D has an option for gravity; that's obnoxious to find.
 
 Gravity and jumping; why not
 ```cs
