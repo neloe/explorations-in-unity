@@ -29,7 +29,8 @@
   
 ### Code Snippets
 
-* Rigidbody2D has an option for gravity; that's obnoxious to find.
+* Rigidbody2D has an option for gravity; that's obnoxious to find
+ * Gravity STILL doesn't accellerate? is my scale too small?
 
 Gravity and jumping; why not
 ```cs
