@@ -66,8 +66,8 @@ Welp, this can and will clip you straight through a sprite collider.  Well done.
 ---
 ## TODO
 
-- [] Install instructions
-  - [] VS Code
-  - [] .NET SDK 
-  - [] Unity Hub
+- [ ] Install instructions
+  - [ ] VS Code
+  - [ ] .NET SDK 
+  - [ ] Unity Hub
 
