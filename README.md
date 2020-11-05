@@ -30,6 +30,7 @@
 
 * Adding box colliders to tilemaps dont seem to act like I want them to act
 * Can't find rule tile yet in unity 2019
+  * Rule tiles can be added with [`2d-extras`](https://github.com/Unity-Technologies/2d-extras); should we introduce these extra tools?
   
 ### Code Snippets
 
