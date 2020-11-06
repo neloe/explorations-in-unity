@@ -7,7 +7,7 @@
 ### Editors
 
 * VS Community seems to suck; VS Code better/lighter?  Maybve not; need the .NET core 3.1 SDK and suggested extensions; let's see if that's nicer
- * I cannot stress this enough; VS Community is laggy (on faculty laptop), will try vs code next with the appropriate sdk and extensions.
+  * I cannot stress this enough; VS Community is laggy (on faculty laptop), will try vs code next with the appropriate sdk and extensions.
 
 
 ### Scripting
@@ -35,6 +35,10 @@
 ### Recording
 
 * OBS seems smoother/easier than VidGrid, even with windows updates doing the windows updates.
+
+### UI
+
+* If you can't find something, it's probably in the `Window` menu.
 
 ### Code Snippets
 
