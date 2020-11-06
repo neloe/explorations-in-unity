@@ -32,6 +32,10 @@
 * Can't find rule tile yet in unity 2019
   * Rule tiles can be added with [`2d-extras`](https://github.com/Unity-Technologies/2d-extras); should we introduce these extra tools?
   
+### Recording
+
+* OBS seems smoother/easier than VidGrid, even with windows updates doing the windows updates.
+
 ### Code Snippets
 
 * Rigidbody2D has an option for gravity; that's obnoxious to find
@@ -70,4 +74,5 @@ Welp, this can and will clip you straight through a sprite collider.  Well done.
   - [ ] VS Code
   - [ ] .NET SDK 
   - [ ] Unity Hub
+- [ ] Investigate Unity + GitHub
 
